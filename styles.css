@@ -17,6 +17,11 @@
 #carrouselCard img{
     height: 300px;
 }
+#h1{
+    text-shadow: 1px 2px 3px 4px!important;
+}
+
+
 @media (min-width:1023px) {
     .carousel-inner{
         height: 80vh;
@@ -25,7 +30,27 @@
         height: 80vh;
         object-fit: cover;
         object-position: 50% 50%
+    
     }  
+
+    #h2{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important; 
+    }
+    #iframe{
+        height: 630px!important;
+    }
+    #iframe iframe{
+        height: 600px!important;
+    }
+    #bodyCard p{
+        padding:50px ;
+    }
+    #bodyCard h5{
+        margin-top: 50px;
+    }
 }
+
+
 
 
