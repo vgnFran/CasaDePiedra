@@ -13,9 +13,9 @@
 
   <body>
     <header> <!--       HEADER       -->
-        <nav class="navbar  navbar-expand-lg navbar-light bg-light ml-auto"  >
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light ml-auto "  >
           <div class="container" id="containerNav" >
-            <a class="navbar-brand" href="#"><img src="/images/iconMount.png" id="iconmont" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="images/iconMount.png" id="iconmont" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,16 +25,16 @@
                   <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Unidades</a>
+                  <a class="nav-link" href="#h2">Unidades</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Ubicacion</a>
+                  <a class="nav-link" href="#h22">Ubicacion</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Actividades</a>
+                  <a class="nav-link" href="#h2ex">Actividades</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link" href="#contact">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -45,7 +45,7 @@
       <!-----------------CARROUSEL--------------->
 
     <div class=".container-fluid ">
-          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade slide-in-blurred-right" data-bs-ride="carousel">
         <div class="carousel-inner shadow-lg">
           <div class="carousel-item active ">
             <img src="images/imgtr1.jpg" class="d-block w-100" alt="...">
@@ -82,19 +82,21 @@
 
     <section class="container-fluid" id="containerCards">
         <div class="row">
-          <div class="col-md-4 col-xl-4 mb-4" id="card">
+          <div class="col-md-4 col-xl-4 mb-4 slide-in-blurred-right" id="card">
             <div class="card shadow-lg" >
-              <div class=".container-fluid">
+               
+                <!--carrouselcard-->
+              <div class=".container-fluid">               
                 <div id="carouselCard1" class="carousel slide carousel-fade" data-bs-ride="carousel">
               <div class="carousel-inner" id="carrouselCard">
                 <div class="carousel-item active ">
-                  <img src="images/imgtr1.jpg" class="d-block w-100" alt="...">
+                  <img src="images/interior1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ">
-                  <img src="images/imgtr2.jpg" class="d-block w-100" alt="...">
+                  <img src="images/interior1.2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ">
-                  <img src="images/imgtr4.jpg" class="d-block w-100" alt="...">
+                  <img src="images/interior1.3.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselCard1" data-bs-slide="prev">
@@ -107,6 +109,7 @@
               </button>
             </div>
           </div>
+
               <div class="card-body">
                 <h5 class="card-title text-center">Cabaña Simple</h5>
               </div>
@@ -134,30 +137,33 @@
               <!--card2-->
 
           <div class="col-md-4 col-xl-4" id="card2">
-            <div class="card shadow-lg mb-4" id="card">
+            <div class="card shadow-lg mb-4 slide-in-blurred-right" id="card">
+               
+                <!--carrouselcard-->
               <div class=".container-fluid">
-                <div id="carouselCard1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselCard2" class="carousel slide carousel-fade" data-bs-ride="carousel">
               <div class="carousel-inner" id="carrouselCard">
                 <div class="carousel-item active ">
-                  <img src="images/imgtr1.jpg" class="d-block w-100" alt="...">
+                  <img src="images/interior2.0.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ">
-                  <img src="images/imgtr2.jpg" class="d-block w-100" alt="...">
+                  <img src="images/interior2.2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ">
-                  <img src="images/imgtr4.jpg" class="d-block w-100" alt="...">
+                  <img src="images/interior2.3.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselCard1" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselCard2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselCard1" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselCard2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Siguiente</span>
               </button>
             </div>
           </div>
+
               <div class="card-body">
                 <h5 class="card-title text-center">Cabaña Doble</h5>
               </div>
@@ -187,30 +193,33 @@
               <!--card3-->
 
           <div class="col-md-4 col-xl-4" id="card">
-            <div class="card shadow-lg mb-4" >
+            <div class="card shadow-lg mb-4 slide-in-blurred-right" >
+               
+                <!--carrouselcard-->
               <div class=".container-fluid">
-                <div id="carouselCard1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselCard3" class="carousel slide carousel-fade" data-bs-ride="carousel">
               <div class="carousel-inner" id="carrouselCard">
                 <div class="carousel-item active ">
-                  <img src="images/imgtr1.jpg" class="d-block w-100" alt="...">
+                  <img src="images/interior3.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ">
-                  <img src="images/imgtr2.jpg" class="d-block w-100" alt="...">
+                  <img src="images/interior3.2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ">
-                  <img src="images/imgtr4.jpg" class="d-block w-100" alt="...">
+                  <img src="images/interior3.3.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselCard1" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselCard3" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselCard1" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselCard3" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Siguiente</span>
               </button>
             </div>
           </div>
+
               <div class="card-body">
                 <h5 class="card-title text-center">Cabaña Triple</h5>
               </div>
@@ -237,7 +246,7 @@
 
       <!----------------UBICACION------------->
 
-  <h2 class="display-6 text-center p-3" id="h2">Ubicacion</h2>
+  <h2 class="display-6 text-center p-3 ubi" id="h22">Ubicacion</h2>
     
     <section class="container-fluid">
 
@@ -255,7 +264,7 @@
 
         <div class="col">
           <div class="card shadow-lg" >
-            <div class="card-body text-center" id="bodyCard">
+            <div class="card-body text-center .gradient" id="bodyCard">
               <h5 class="card-title">¿Donde nos ubicamos?</h5>           
               <p class="card-text">Complejo Casa de Piedra se encuentra ubicado en Av. Bustillo 13840. Cuenta con una excelente vista al Lago Nahuel Huapi.
               Estratégicamente ubicados para la mejor vista de Bariloche y su entorno... Atendido por sus dueños y con una excelente ubicación frente al lago Nahuel Huapi y a tan sólo 800 metros de Playa Serena, lo invita a disfrutar de su estadía en Bariloche. En medio de un paisaje deslumbrante de montañas y bosques. Disfrutarás de una fascinante naturaleza en una hectárea de bosque nativo de viejos cipreses, amplio parque, sendas, rincones y flores durante todo el año.</p>
@@ -271,7 +280,7 @@
 
     <!-------------EXCURSIONES----------->
 
-    <h2 class="display-6 text-center p-3 mt-4 " id="h2ex">Excursiones</h2>
+    <h2 class="display-6 text-center p-3 mt-4" id="h2ex">Excursiones</h2>
     <div class="mb-4" id="h4">
     <h4 class="display-6 mb-5">Contamos con excursiones, paseos y otras actividades turísticas para hacer en Bariloche. Viví la mejor experiencia para conocer la ciudad. Podes contratar con o sin traslado.</h4>
     </div>
@@ -284,7 +293,7 @@
             <div class="card-header">
               Cerro Tronador
             </div>
-            <img src="images/imgtr1.jpg" class="card-img-top" id="cardEx" alt="...">
+            <img src="images/tronador.jpg" class="card-img-top" id="cardEx" alt="cerrotronador">
           </div>
         </div>
 
@@ -293,7 +302,7 @@
             <div class="card-header">
               Ruta de los 7 Lagos
             </div>
-            <img src="images/imgtr1.jpg" class="card-img-top" id="cardEx" alt="...">
+            <img src="images/lagos.jpg" class="card-img-top" id="cardEx" alt="7lagos">
           </div>
         </div>
 
@@ -302,7 +311,7 @@
             <div class="card-header">
               Isla Victoria
             </div>
-            <img src="images/imgtr1.jpg" class="card-img-top" id="cardEx" alt="...">            
+            <img src="images/victoria.jpg" class="card-img-top" id="cardEx" alt="islavictoria">            
           </div>
         </div>
 
@@ -310,7 +319,7 @@
     </section>
 
     <!-------------CONTACTO----------->
-    <h2 class="display-6 text-center mt-5 pt-3 mb-3 pb-3" >Contacto</h2>
+    <h2 class="display-6 text-center mt-5 pt-3 mb-3 pb-3" id="contact">Contacto</h2>
     
     <section class="container">
       <div class="row">
@@ -447,7 +456,7 @@
   </main>
         <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
-            <span class="text-muted">© 2022 Todos los derechos reservados.</span>
+            <span class="text-muted">© 2022 Todos los derechos reservados. Casa de Piedra.</span>
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
