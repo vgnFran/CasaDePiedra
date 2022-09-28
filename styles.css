@@ -27,10 +27,10 @@
     align-items: center;
     margin-left: 5%;
 }
-.card{
+#card{
     transition: all 0.5s;
 }
-.card:hover{
+#card:hover{
     transform: scale(1.05);
     z-index: 1;
 }
@@ -69,7 +69,7 @@
         padding:50px ;
     }
     #bodyCard h5{
-        margin-top: 50px;
+        margin-top: 43px;
     }
 
 }
