@@ -1,3 +1,6 @@
+*{
+    font-family: 'Rubik', sans-serif!important;
+}
 .carousel-inner{
     height: 550px;
 }
@@ -34,6 +37,12 @@
     transform: scale(1.05);
     z-index: 1;
 }
+h4{
+    font-size: 22px !important;
+}
+#h2Contact{
+    font-size: 22px!important;
+}
 
 @media (min-width:1023px) {
     .carousel-inner{
@@ -69,7 +78,7 @@
         padding:50px ;
     }
     #bodyCard h5{
-        margin-top: 43px;
+        margin-top: 55px;
     }
 
 }
