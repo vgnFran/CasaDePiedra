@@ -1,4 +1,4 @@
-@import url("_reset.scss");
+@import "./partials/reset";
 
 .carousel-inner{
     height: 550px;
@@ -147,5 +147,7 @@ h4{
         margin-left: 10%!important;
         margin-right: 10%!important;
     }
-
+    .arreglo{
+    max-width: 100%;
+    }
 }

@@ -1,4 +1,8 @@
-@import url("_reset.scss");
+/* line 1, ../../../Desktop/segundaentrega/scss/partials/_reset.scss */
+body {
+  font-family: "Rubik", sans-serif !important;
+  overflow-x: hidden !important; }
+
 /* line 3, ../../../Desktop/segundaentrega/scss/styles.scss */
 .carousel-inner {
   height: 550px; }
@@ -139,6 +143,9 @@ h4 {
   /* line 146, ../../../Desktop/segundaentrega/scss/styles.scss */
   .containerExc {
     margin-left: 10% !important;
-    margin-right: 10% !important; } }
+    margin-right: 10% !important; }
+  /* line 150, ../../../Desktop/segundaentrega/scss/styles.scss */
+  .arreglo {
+    max-width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
