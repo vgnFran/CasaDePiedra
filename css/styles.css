@@ -1,37 +1,34 @@
-/* line 1, ../../../Desktop/segundaentrega/scss/styles.scss */
-* {
-  font-family: "Rubik", sans-serif !important; }
-
-/* line 5, ../../../Desktop/segundaentrega/scss/styles.scss */
+@import url("_reset.scss");
+/* line 3, ../../../Desktop/segundaentrega/scss/styles.scss */
 .carousel-inner {
   height: 550px; }
 
-/* line 8, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 6, ../../../Desktop/segundaentrega/scss/styles.scss */
 .carousel-inner img {
   height: 550px;
   object-fit: cover;
   object-position: 50% 50%; }
 
-/* line 13, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 11, ../../../Desktop/segundaentrega/scss/styles.scss */
 #iconmont {
   width: 50px;
   height: 50px; }
 
-/* line 18, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 16, ../../../Desktop/segundaentrega/scss/styles.scss */
 #carrouselCard {
   height: 300px; }
 
-/* line 21, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 20, ../../../Desktop/segundaentrega/scss/styles.scss */
 #carrouselCard img {
   height: 300px; }
 
-/* line 25, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 24, ../../../Desktop/segundaentrega/scss/styles.scss */
 #cardEx {
   height: 600px;
   object-fit: cover;
   object-position: 50% 50%; }
 
-/* line 30, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 29, ../../../Desktop/segundaentrega/scss/styles.scss */
 #h4 {
   width: 90%;
   text-align: center;
@@ -138,6 +135,10 @@ h4 {
     margin-top: 43px; }
   /* line 143, ../../../Desktop/segundaentrega/scss/styles.scss */
   #iconsFt {
-    margin-top: 0 !important; } }
+    margin-top: 0 !important; }
+  /* line 146, ../../../Desktop/segundaentrega/scss/styles.scss */
+  .containerExc {
+    margin-left: 10% !important;
+    margin-right: 10% !important; } }
 
 /*# sourceMappingURL=styles.css.map */
