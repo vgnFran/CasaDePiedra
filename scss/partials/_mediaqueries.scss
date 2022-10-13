@@ -1,0 +1,47 @@
+/*-------MEDIAQUERIES PERS.------*/
+
+@media (min-width:1023px) {
+    .carousel-inner{
+        height: 80vh;
+    }
+    .carousel-inner img{
+        height: 80vh;
+        object-fit: cover;
+        object-position: 50% 50%
+    
+    }  
+    #h2{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important; 
+    }
+    #h22{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important; 
+    }
+    #h2ex{
+        padding-top: 100px!important;        
+    }
+    #h4{
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        margin-left: 15%;
+        padding-bottom: 100px;
+    }
+    #iframe{
+        height: 630px!important;
+    }
+    #iframe iframe{
+        height: 600px!important;
+    }
+    #bodyCard p{
+        padding:50px ;
+    }
+    #bodyCard h5{
+        margin-top: 43px;
+    }
+    #iconsFt{
+        margin-top: 0!important;
+    }
+
+}

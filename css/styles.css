@@ -1,63 +1,56 @@
 /* line 1, ../../../Desktop/segundaentrega/scss/partials/_reset.scss */
 body {
   font-family: "Rubik", sans-serif !important;
-  overflow-x: hidden !important; }
+  overflow-x: hidden !important;
+  box-sizing: border-box; }
 
-/* line 3, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 1, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
 .carousel-inner {
   height: 550px; }
+  /* line 4, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+  .carousel-inner img {
+    height: 550px;
+    object-fit: cover;
+    object-position: 50% 50%; }
 
-/* line 6, ../../../Desktop/segundaentrega/scss/styles.scss */
-.carousel-inner img {
-  height: 550px;
-  object-fit: cover;
-  object-position: 50% 50%; }
-
-/* line 11, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 11, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
 #iconmont {
   width: 50px;
   height: 50px; }
 
-/* line 16, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 1, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #carrouselCard {
   height: 300px; }
+  /* line 4, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+  #carrouselCard img {
+    height: 300px; }
 
-/* line 20, ../../../Desktop/segundaentrega/scss/styles.scss */
-#carrouselCard img {
-  height: 300px; }
-
-/* line 24, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 9, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #cardEx {
   height: 600px;
   object-fit: cover;
   object-position: 50% 50%; }
 
-/* line 29, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 15, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #h4 {
   width: 90%;
   text-align: center;
   align-items: center;
   margin-left: 5%; }
 
-/* line 36, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 22, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #card {
   transition: all 0.5s; }
+  /* line 25, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+  #card:hover {
+    transform: scale(1.05);
+    z-index: 1; }
 
-/* line 39, ../../../Desktop/segundaentrega/scss/styles.scss */
-#card:hover {
-  transform: scale(1.05);
-  z-index: 1; }
-
-/* line 43, ../../../Desktop/segundaentrega/scss/styles.scss */
-h4 {
-  font-size: 22px !important; }
-
-/* line 46, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 32, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #h2Contact {
   font-size: 22px !important; }
 
-/*------------ANIMACIONES----------*/
-/* line 53, ../../../Desktop/segundaentrega/scss/styles.scss */
+/* line 1, ../../../Desktop/segundaentrega/scss/partials/_animations.scss */
 .slide-in-blurred-right {
   animation: slide-in-blurred-right 1s cubic-bezier(0.23, 1, 0.32, 1) both; }
 
@@ -99,53 +92,46 @@ h4 {
 
 /*-------MEDIAQUERIES PERS.------*/
 @media (min-width: 1023px) {
-  /* line 104, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 4, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   .carousel-inner {
     height: 80vh; }
-  /* line 107, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 7, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   .carousel-inner img {
     height: 80vh;
     object-fit: cover;
     object-position: 50% 50%; }
-  /* line 113, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 13, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   #h2 {
     padding-top: 100px !important;
     padding-bottom: 100px !important; }
-  /* line 117, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 17, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   #h22 {
     padding-top: 100px !important;
     padding-bottom: 100px !important; }
-  /* line 121, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 21, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   #h2ex {
     padding-top: 100px !important; }
-  /* line 124, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 24, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   #h4 {
     width: 70%;
     text-align: center;
     align-items: center;
     margin-left: 15%;
     padding-bottom: 100px; }
-  /* line 131, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 31, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   #iframe {
     height: 630px !important; }
-  /* line 134, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 34, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   #iframe iframe {
     height: 600px !important; }
-  /* line 137, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 37, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   #bodyCard p {
     padding: 50px; }
-  /* line 140, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 40, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   #bodyCard h5 {
     margin-top: 43px; }
-  /* line 143, ../../../Desktop/segundaentrega/scss/styles.scss */
+  /* line 43, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
   #iconsFt {
-    margin-top: 0 !important; }
-  /* line 146, ../../../Desktop/segundaentrega/scss/styles.scss */
-  .containerExc {
-    margin-left: 10% !important;
-    margin-right: 10% !important; }
-  /* line 150, ../../../Desktop/segundaentrega/scss/styles.scss */
-  .arreglo {
-    max-width: 100%; } }
+    margin-top: 0 !important; } }
 
 /*# sourceMappingURL=styles.css.map */
