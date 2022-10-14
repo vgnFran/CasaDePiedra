@@ -1,5 +1,6 @@
 body{
-    font-family: 'Rubik', sans-serif!important;
+    font-family: $mainFont !important;
     overflow-x: hidden!important;
     box-sizing: border-box;
+    background-color: $colorOne;
 }

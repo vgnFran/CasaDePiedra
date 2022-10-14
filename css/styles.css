@@ -2,7 +2,8 @@
 body {
   font-family: "Rubik", sans-serif !important;
   overflow-x: hidden !important;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #fff; }
 
 /* line 1, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
 .carousel-inner {
@@ -17,6 +18,15 @@ body {
 #iconmont {
   width: 50px;
   height: 50px; }
+
+/* line 18, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+nav li a {
+  padding-left: 12px !important;
+  padding-right: 12px !important; }
+  /* line 23, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+  nav li a:hover {
+    font-size: 18px;
+    font-weight: 600; }
 
 /* line 1, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #carrouselCard {
@@ -46,7 +56,17 @@ body {
     transform: scale(1.05);
     z-index: 1; }
 
-/* line 32, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 31, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+.card-header {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600; }
+
+/* line 36, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+#ubiTitle {
+  font-weight: 600; }
+
+/* line 39, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #h2Contact {
   font-size: 22px !important; }
 
