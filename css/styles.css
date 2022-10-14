@@ -28,6 +28,10 @@ nav li a {
     font-size: 18px;
     font-weight: 600; }
 
+/* line 31, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+label {
+  font-weight: 600; }
+
 /* line 1, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #carrouselCard {
   height: 300px; }
@@ -52,21 +56,24 @@ nav li a {
 #card {
   transition: all 0.5s; }
   /* line 25, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+  #card .card-title {
+    font-weight: 600; }
+  /* line 29, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
   #card:hover {
     transform: scale(1.05);
     z-index: 1; }
 
-/* line 31, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 35, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 .card-header {
   font-size: 18px;
   text-align: center;
   font-weight: 600; }
 
-/* line 36, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 40, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #ubiTitle {
   font-weight: 600; }
 
-/* line 39, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 43, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #h2Contact {
   font-size: 22px !important; }
 

@@ -22,6 +22,10 @@
 #card{
     transition: all 0.5s;
 
+    .card-title{
+        font-weight: $mainWeight;
+    }
+
     &:hover{
         transform: scale(1.05);
         z-index: 1;
@@ -31,10 +35,10 @@
 .card-header{
     font-size: 18px;
     text-align: center;
-    font-weight: 600;
+    font-weight: $mainWeight;
 }
 #ubiTitle{
-    font-weight: 600;
+    font-weight: $mainWeight;
 }
 #h2Contact{
     font-size: 22px!important;

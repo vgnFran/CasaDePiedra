@@ -22,8 +22,12 @@ nav {
 
             &:hover{
                 font-size: 18px;
-                font-weight: 600;
+                font-weight: $mainWeight;
             }
         }
     }
+}
+
+label{
+    font-weight: $mainWeight;
 }
