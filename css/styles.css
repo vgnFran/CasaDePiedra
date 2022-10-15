@@ -52,28 +52,35 @@ label {
   align-items: center;
   margin-left: 5%; }
 
-/* line 22, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 21, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+#h5 {
+  width: 90%;
+  text-align: center;
+  align-items: center;
+  margin-left: 5%; }
+
+/* line 28, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #card {
   transition: all 0.5s; }
-  /* line 25, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+  /* line 31, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
   #card .card-title {
     font-weight: 600; }
-  /* line 29, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+  /* line 35, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
   #card:hover {
     transform: scale(1.05);
     z-index: 1; }
 
-/* line 35, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 41, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 .card-header {
   font-size: 18px;
   text-align: center;
   font-weight: 600; }
 
-/* line 40, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 46, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #ubiTitle {
   font-weight: 600; }
 
-/* line 43, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 49, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
 #h2Contact {
   font-size: 22px !important; }
 
