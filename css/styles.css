@@ -96,7 +96,7 @@ label {
   .carrousel2 img {
     height: 300px; }
 
-/* ------------------ HTML CABNAHUEL ---------------------*/
+/* ------------------ HTMLS CABAÑAS ---------------------*/
 /* line 70, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 .abs {
   position: absolute;
@@ -158,6 +158,7 @@ h3 {
   flex-direction: column;
   margin-left: 10%; }
 
+/**/
 /* line 1, ../../../Desktop/terceraEntrega/scss/partials/_animations.scss */
 .slide-in-blurred-right {
   animation: slide-in-blurred-right 1s cubic-bezier(0.23, 1, 0.32, 1) both; }
