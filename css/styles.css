@@ -118,7 +118,7 @@ label {
 /* line 88, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 .icons h3 {
   color: gray;
-  font-size: 20px; }
+  font-size: 20px !important; }
 
 /* line 93, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 .info {
@@ -299,12 +299,13 @@ h3 {
   .services {
     display: flex !important;
     flex-direction: row;
-    justify-content: space-evenly; }
-  /* line 98, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    justify-content: space-evenly;
+    margin: 0; }
+  /* line 99, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .infor {
     display: flex;
     align-items: center !important; }
-    /* line 101, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    /* line 102, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
     .infor p {
       margin: 0;
       padding-left: 20px;
