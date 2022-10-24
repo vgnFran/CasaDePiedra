@@ -1,13 +1,14 @@
 #carrouselCard{
-    height: 300px;
+    height: 400px;
 
     img{
-        height: 300px;
+        height: 400px;
+        object-fit: cover;
     }
 }
 
 #cardEx{
-    height: 600px;
+    height: 400px;
     object-fit: cover;
     object-position: 50% 50%
 }
@@ -38,15 +39,88 @@
     }
 }
 
-.card-header{
-    font-size: 18px;
-    text-align: center;
-    font-weight: $mainWeight;
-}
 #ubiTitle{
     font-weight: $mainWeight;
 }
 #h2Contact{
     font-size: 22px!important;
+}
+
+/* ----------  HTML UNITS ------- */
+
+.breadcrumb{
+    margin-left: 30px;
+}
+.card{
+
+    .card-title{
+        font-weight:$mainWeight;
+    }
+}
+
+.carrousel2{
+    height: 300px;
+    img{
+        height: 300px;
+    }
+}
+
+/* ------------------ HTML CABNAHUEL ---------------------*/
+
+.abs{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: $colorOne;
+    font-weight: $mainFont;
+    font-size: 45px;
+    text-shadow: 100px 100px 100px black!important;
+    font-family: 'Roboto', sans-serif;
+    h2{
+        font-size:25px ;
+    }
+}
+.icons{
+    h2{
+        color:gray;
+        font-size: 25px;
+    }
+    h3{
+        color: gray;
+        font-size: 20px;
+    }
+}
+.info{
+    font-size: 30px!important;
+    color: rgb(51, 51, 51);
+    font-weight: $mainWeight;
+}
+.p{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: $mainWeight;
+    color: rgb(90, 90, 90);
+}
+h3{
+    color: rgb(51, 51, 51);
+    font-size: 30px!important;
+    font-weight:$mainWeight!important;
+}
+.infor{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    p{
+        margin: 0;
+        padding-left: 20px;
+        
+    }
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
 }
 

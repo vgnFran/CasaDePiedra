@@ -1,90 +1,163 @@
-/* line 1, ../../../Desktop/segundaentrega/scss/partials/_reset.scss */
+/* line 1, ../../../Desktop/terceraEntrega/scss/partials/_reset.scss */
 body {
   font-family: "Rubik", sans-serif !important;
   overflow-x: hidden !important;
   box-sizing: border-box;
   background-color: #fff; }
 
-/* line 1, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+/* line 1, ../../../Desktop/terceraEntrega/scss/partials/_header.scss */
 .carousel-inner {
-  height: 550px; }
-  /* line 4, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+  height: 650px; }
+  /* line 4, ../../../Desktop/terceraEntrega/scss/partials/_header.scss */
   .carousel-inner img {
-    height: 550px;
+    height: 650px;
     object-fit: cover;
     object-position: 50% 50%; }
 
-/* line 11, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+/* line 11, ../../../Desktop/terceraEntrega/scss/partials/_header.scss */
 #iconmont {
-  width: 50px;
-  height: 50px; }
+  width: 55px;
+  height: 55px; }
 
-/* line 18, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+/* line 18, ../../../Desktop/terceraEntrega/scss/partials/_header.scss */
 nav li a {
   padding-left: 12px !important;
   padding-right: 12px !important; }
-  /* line 23, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+  /* line 23, ../../../Desktop/terceraEntrega/scss/partials/_header.scss */
   nav li a:hover {
     font-size: 18px;
     font-weight: 600; }
 
-/* line 31, ../../../Desktop/segundaentrega/scss/partials/_header.scss */
+/* line 31, ../../../Desktop/terceraEntrega/scss/partials/_header.scss */
 label {
   font-weight: 600; }
 
-/* line 1, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 1, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #carrouselCard {
-  height: 300px; }
-  /* line 4, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+  height: 400px; }
+  /* line 4, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
   #carrouselCard img {
-    height: 300px; }
+    height: 400px;
+    object-fit: cover; }
 
-/* line 9, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 10, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #cardEx {
-  height: 600px;
+  height: 400px;
   object-fit: cover;
   object-position: 50% 50%; }
 
-/* line 15, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 16, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #h4 {
   width: 90%;
   text-align: center;
   align-items: center;
   margin-left: 5%; }
 
-/* line 21, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 22, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #h5 {
   width: 90%;
   text-align: center;
   align-items: center;
   margin-left: 5%; }
 
-/* line 28, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 29, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #card {
   transition: all 0.5s; }
-  /* line 31, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+  /* line 32, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
   #card .card-title {
     font-weight: 600; }
-  /* line 35, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+  /* line 36, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
   #card:hover {
     transform: scale(1.05);
     z-index: 1; }
 
-/* line 41, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
-.card-header {
-  font-size: 18px;
-  text-align: center;
-  font-weight: 600; }
-
-/* line 46, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 42, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #ubiTitle {
   font-weight: 600; }
 
-/* line 49, ../../../Desktop/segundaentrega/scss/partials/_main.scss */
+/* line 45, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #h2Contact {
   font-size: 22px !important; }
 
-/* line 1, ../../../Desktop/segundaentrega/scss/partials/_animations.scss */
+/* ----------  HTML UNITS ------- */
+/* line 51, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.breadcrumb {
+  margin-left: 30px; }
+
+/* line 56, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.card .card-title {
+  font-weight: 600; }
+
+/* line 61, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.carrousel2 {
+  height: 300px; }
+  /* line 63, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+  .carrousel2 img {
+    height: 300px; }
+
+/* ------------------ HTML CABNAHUEL ---------------------*/
+/* line 70, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.abs {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  color: #fff;
+  font-weight: "Rubik", sans-serif;
+  font-size: 45px;
+  text-shadow: 100px 100px 100px black !important;
+  font-family: 'Roboto', sans-serif; }
+  /* line 79, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+  .abs h2 {
+    font-size: 25px; }
+
+/* line 84, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.icons h2 {
+  color: gray;
+  font-size: 25px; }
+
+/* line 88, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.icons h3 {
+  color: gray;
+  font-size: 20px; }
+
+/* line 93, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.info {
+  font-size: 30px !important;
+  color: #333333;
+  font-weight: 600; }
+
+/* line 98, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.p {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 600;
+  color: #5a5a5a; }
+
+/* line 105, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+h3 {
+  color: #333333;
+  font-size: 30px !important;
+  font-weight: 600 !important; }
+
+/* line 110, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.infor {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center; }
+  /* line 115, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+  .infor p {
+    margin: 0;
+    padding-left: 20px; }
+
+/* line 121, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%; }
+
+/* line 1, ../../../Desktop/terceraEntrega/scss/partials/_animations.scss */
 .slide-in-blurred-right {
   animation: slide-in-blurred-right 1s cubic-bezier(0.23, 1, 0.32, 1) both; }
 
@@ -125,61 +198,117 @@ label {
     opacity: 1; } }
 
 @media (max-width: 1024px) {
-  /* line 49, ../../../Desktop/segundaentrega/scss/partials/_animations.scss */
+  /* line 49, ../../../Desktop/terceraEntrega/scss/partials/_animations.scss */
   [data-aos='fade-up'] {
     transform: none !important; }
-  /* line 52, ../../../Desktop/segundaentrega/scss/partials/_animations.scss */
+  /* line 52, ../../../Desktop/terceraEntrega/scss/partials/_animations.scss */
   [data-aos='fade-right'] {
     transform: none !important; }
-  /* line 55, ../../../Desktop/segundaentrega/scss/partials/_animations.scss */
+  /* line 55, ../../../Desktop/terceraEntrega/scss/partials/_animations.scss */
   [data-aos='fade-left'] {
     transform: none !important; }
-  /* line 58, ../../../Desktop/segundaentrega/scss/partials/_animations.scss */
+  /* line 58, ../../../Desktop/terceraEntrega/scss/partials/_animations.scss */
   .slide-in-blurred-right {
     animation: none !important; } }
 
 /*-------MEDIAQUERIES PERS.------*/
 @media (min-width: 1023px) {
-  /* line 4, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
-  .carousel-inner {
+  /* line 4, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  #carousel-inner {
     height: 80vh; }
-  /* line 7, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
-  .carousel-inner img {
+  /* line 7, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  #carousel-inner img {
     height: 80vh;
-    object-fit: cover;
+    object-fit: cover !important;
     object-position: 50% 50%; }
-  /* line 13, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
+  /* line 13, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  #carrouselCard {
+    object-fit: cover; }
+  /* line 16, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #h2 {
     padding-top: 100px !important;
     padding-bottom: 100px !important; }
-  /* line 17, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
+  /* line 20, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #h22 {
     padding-top: 100px !important;
     padding-bottom: 100px !important; }
-  /* line 21, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
+  /* line 24, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #h2ex {
     padding-top: 100px !important; }
-  /* line 24, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
+  /* line 27, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #h4 {
     width: 70%;
     text-align: center;
     align-items: center;
     margin-left: 15%;
     padding-bottom: 100px; }
-  /* line 31, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
+  /* line 34, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #iframe {
     height: 630px !important; }
-  /* line 34, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
+  /* line 37, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #iframe iframe {
     height: 600px !important; }
-  /* line 37, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
+  /* line 40, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #bodyCard p {
     padding: 50px; }
-  /* line 40, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
+  /* line 43, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #bodyCard h5 {
     margin-top: 43px; }
-  /* line 43, ../../../Desktop/segundaentrega/scss/partials/_mediaqueries.scss */
+  /* line 46, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  #cardEx {
+    height: 600px; }
+  /* line 49, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #iconsFt {
-    margin-top: 0 !important; } }
+    margin-top: 0 !important; }
+  /*HTML UNITS*/
+  /* line 55, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  #carrouselCardis {
+    width: 650px;
+    margin-left: auto;
+    object-fit: cover; }
+  /* line 62, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  #carrouselCardis2 {
+    width: 650px;
+    margin-right: auto;
+    object-fit: cover; }
+  /* line 67, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .carrousel2 {
+    height: 600px; }
+    /* line 69, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    .carrousel2 img {
+      height: 600px;
+      object-fit: cover; }
+  /*HTML CABNAHUEL*/
+  /* line 76, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .icons {
+    display: flex;
+    justify-content: space-around; }
+    /* line 79, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    .icons img {
+      margin-bottom: 25px !important; }
+  /* line 83, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .p {
+    width: 80%;
+    text-align: center;
+    margin: auto; }
+  /* line 88, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .colum {
+    display: flex;
+    flex-direction: column; }
+  /* line 93, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .services {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  /* line 98, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .infor {
+    display: flex;
+    align-items: center !important; }
+    /* line 101, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    .infor p {
+      margin: 0;
+      padding-left: 20px;
+      width: 100%;
+      text-align: left; } }
 
 /*# sourceMappingURL=styles.css.map */
