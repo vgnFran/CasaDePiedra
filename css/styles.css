@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 1, ../../../Desktop/terceraEntrega/scss/partials/_reset.scss */
 body {
   font-family: "Rubik", sans-serif !important;
@@ -212,100 +213,115 @@ h3 {
     animation: none !important; } }
 
 /*-------MEDIAQUERIES PERS.------*/
+@media (min-width: 767px) {
+  /*-------INDEX-------*/
+  /*-------HTML CABAÑAS + BUNGALOWS + CASAS*/
+  /* line 10, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  /* line 15, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%; } }
+
 @media (min-width: 1023px) {
-  /* line 4, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 31, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #carousel-inner {
     height: 80vh; }
-  /* line 7, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 34, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #carousel-inner img {
     height: 80vh;
     object-fit: cover !important;
     object-position: 50% 50%; }
-  /* line 13, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 40, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #carrouselCard {
     object-fit: cover; }
-  /* line 16, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 43, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #h2 {
     padding-top: 100px !important;
     padding-bottom: 100px !important; }
-  /* line 20, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 47, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #h22 {
     padding-top: 100px !important;
     padding-bottom: 100px !important; }
-  /* line 24, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 51, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #h2ex {
     padding-top: 100px !important; }
-  /* line 27, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 54, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #h4 {
     width: 70%;
     text-align: center;
     align-items: center;
     margin-left: 15%;
     padding-bottom: 100px; }
-  /* line 34, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 61, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #iframe {
     height: 630px !important; }
-  /* line 37, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 64, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #iframe iframe {
     height: 600px !important; }
-  /* line 40, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 67, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #bodyCard p {
     padding: 50px; }
-  /* line 43, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 70, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #bodyCard h5 {
     margin-top: 43px; }
-  /* line 46, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 73, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #cardEx {
     height: 600px; }
-  /* line 49, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 76, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #iconsFt {
     margin-top: 0 !important; }
   /*HTML UNITS*/
-  /* line 55, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 82, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #carrouselCardis {
     width: 650px;
     margin-left: auto;
     object-fit: cover; }
-  /* line 62, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 89, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   #carrouselCardis2 {
     width: 650px;
     margin-right: auto;
     object-fit: cover; }
-  /* line 67, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 94, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .carrousel2 {
     height: 600px; }
-    /* line 69, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    /* line 96, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
     .carrousel2 img {
       height: 600px;
       object-fit: cover; }
   /*HTML CABNAHUEL*/
-  /* line 76, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 103, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .icons {
     display: flex;
     justify-content: space-around; }
-    /* line 79, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    /* line 106, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
     .icons img {
       margin-bottom: 25px !important; }
-  /* line 83, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 110, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .p {
     width: 80%;
     text-align: center;
     margin: auto; }
-  /* line 88, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 115, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .colum {
     display: flex;
     flex-direction: column; }
-  /* line 93, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 120, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .services {
     display: flex !important;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0; }
-  /* line 99, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    justify-content: space-evenly !important;
+    margin: 0 !important; }
+  /* line 126, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .infor {
     display: flex;
     align-items: center !important; }
-    /* line 102, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    /* line 129, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
     .infor p {
       margin: 0;
       padding-left: 20px;

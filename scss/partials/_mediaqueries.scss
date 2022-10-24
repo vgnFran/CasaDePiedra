@@ -1,6 +1,33 @@
 /*-------MEDIAQUERIES PERS.------*/
 
+
+@media (min-width:767px){
+
+    /*-------INDEX-------*/
+ 
+
+    /*-------HTML CABAÑAS + BUNGALOWS + CASAS*/
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .services{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5%
+    }
+        
+}
+
+
+
+
 @media (min-width:1023px) {
+
+
+
     #carousel-inner{
         height: 80vh;
     }
@@ -93,8 +120,8 @@
     .services{
         display: flex!important;
         flex-direction: row;
-        justify-content: space-evenly;
-        margin: 0;
+        justify-content: space-evenly!important;
+        margin: 0!important;
     }
     .infor{
         display: flex;
