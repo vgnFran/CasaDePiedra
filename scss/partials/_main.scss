@@ -1,3 +1,4 @@
+
 #carrouselCard{
     height: 400px;
 
@@ -5,6 +6,14 @@
         height: 400px;
         object-fit: cover;
     }
+}
+
+.pm{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: $mainWeight;
+    color: gray;
 }
 
 #cardEx{
@@ -42,9 +51,7 @@
 #ubiTitle{
     font-weight: $mainWeight;
 }
-#h2Contact{
-    font-size: 22px!important;
-}
+
 
 /* ----------  HTML UNITS ------- */
 
@@ -53,7 +60,7 @@
 }
 .card{
 
-    .card-title{
+    .card-title, .card-header{
         font-weight:$mainWeight;
     }
 }
@@ -72,9 +79,8 @@
     top: 15%;
     left: 5%;
     color: $colorOne;
-    font-weight: $mainFont;
+    font-weight: $mainWeight;
     font-size: 45px;
-    text-shadow: 100px 100px 100px black!important;
     font-family: 'Roboto', sans-serif;
     h2{
         font-size:25px ;
@@ -95,16 +101,14 @@
     color: rgb(51, 51, 51);
     font-weight: $mainWeight;
 }
-.p{
-    font-size: 18px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-weight: $mainWeight;
-    color: rgb(90, 90, 90);
+
+h2{
+   font-size: 36px;
+   font-weight:300; 
 }
 h3{
-    color: rgb(51, 51, 51);
-    font-size: 30px!important;
+    color: gray;
+    font-size: 22px!important;
     font-weight:$mainWeight!important;
 }
 .infor{
