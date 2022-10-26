@@ -7,7 +7,34 @@
         object-fit: cover;
     }
 }
+h1,h2,h3,h4,h5{
+    font-family: 'Cormorant Garamond', serif;
+}
+button{
+    font-family:$mainFont;
+}
+#btnunits{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    .btn{
+        width: 20%;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: $mainFont;
+        font-size: 22px;
+        color: white;
+        background-color: #6c757d;
+        &:hover{
+            color: #6c757d;
+            background-color: white;
+            border-color: #6c757d;
+        }
 
+    }
+}
 .pm{
     width: 80%;
     margin: auto;
