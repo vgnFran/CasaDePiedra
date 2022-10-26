@@ -95,7 +95,9 @@
             object-fit:cover;
         }
     }
-
+    .btn{
+        width: 50%;
+    }
             /*HTML CABNAHUEL*/
     .icons{
         display: flex;
@@ -131,4 +133,29 @@
         }
     
     }
+
+    /*-------HTML ACTIVITIES------*/
+    .max{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-evenly;
+        .contenedor{
+            width: 500px;
+            height: 650px;
+            img{
+                width: 500px;
+                height: 550px;
+            }
+            h2{
+                font-size: 24px;
+                font-family: $mainFont;
+            }
+        }
+        
+    }
+
+
+
+
 }

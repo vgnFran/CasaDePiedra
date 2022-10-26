@@ -58,22 +58,23 @@ button {
   justify-content: center; }
   /* line 20, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
   #btnunits .btn {
-    width: 20%;
+    width: 80%;
     height: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: "Roboto", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
+    margin-bottom: 20px;
     color: white;
     background-color: #6c757d; }
-    /* line 30, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+    /* line 31, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
     #btnunits .btn:hover {
       color: #6c757d;
       background-color: white;
       border-color: #6c757d; }
 
-/* line 38, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+/* line 39, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 .pm {
   width: 80%;
   margin: auto;
@@ -81,43 +82,43 @@ button {
   font-weight: 600;
   color: gray; }
 
-/* line 46, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+/* line 47, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #cardEx {
   height: 400px;
   object-fit: cover;
   object-position: 50% 50%; }
 
-/* line 52, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+/* line 53, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #h4 {
   width: 90%;
   text-align: center;
   align-items: center;
   margin-left: 5%; }
 
-/* line 58, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+/* line 59, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #h5 {
   width: 90%;
   text-align: center;
   align-items: center;
   margin-left: 5%; }
 
-/* line 65, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+/* line 66, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #card {
   transition: all 0.5s; }
-  /* line 68, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+  /* line 69, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
   #card .card-title {
     font-weight: 600; }
-  /* line 72, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+  /* line 73, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
   #card:hover {
     transform: scale(1.05);
     z-index: 1; }
 
-/* line 78, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+/* line 79, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 #ubiTitle {
   font-weight: 600; }
 
 /* ----------  HTML UNITS ------- */
-/* line 85, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+/* line 86, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
 .breadcrumb {
   margin-left: 30px; }
 
@@ -190,10 +191,38 @@ h3 {
   flex-direction: column;
   margin-left: 10%; }
 
-/*.navbar{
-    background-color: #C3B091;
-}*/
-/**/
+/*----------HTML ACTIVITIES--------*/
+/* line 159, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+.max {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  overflow-x: hidden; }
+  /* line 165, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+  .max .contenedor {
+    background-color: aqua;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px; }
+    /* line 171, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+    .max .contenedor img {
+      width: 350px;
+      height: 450px;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px; }
+    /* line 178, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+    .max .contenedor h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      margin-top: 5px; }
+    /* line 184, ../../../Desktop/terceraEntrega/scss/partials/_main.scss */
+    .max .contenedor .modal {
+      top: 20% !important; }
+
 @media (max-width: 1024px) {
   /* line 49, ../../../Desktop/terceraEntrega/scss/partials/_animations.scss */
   [data-aos='fade-up'] {
@@ -286,38 +315,60 @@ h3 {
     .carrousel2 img {
       height: 600px;
       object-fit: cover; }
+  /* line 98, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .btn {
+    width: 50%; }
   /*HTML CABNAHUEL*/
-  /* line 100, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 102, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .icons {
     display: flex;
     justify-content: space-around; }
-    /* line 103, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    /* line 105, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
     .icons img {
       margin-bottom: 25px !important; }
-  /* line 107, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 109, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .p {
     width: 80% !important;
     text-align: center;
     margin: auto; }
-  /* line 112, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 114, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .colum {
     display: flex;
     flex-direction: column; }
-  /* line 117, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 119, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .services {
     display: flex !important;
     flex-direction: row;
     justify-content: space-evenly !important;
     margin: 0 !important; }
-  /* line 123, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  /* line 125, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
   .infor {
     display: flex;
     align-items: center !important; }
-    /* line 126, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    /* line 128, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
     .infor p {
       margin: 0;
       padding-left: 20px;
       width: 100%;
-      text-align: left; } }
+      text-align: left; }
+  /*-------HTML ACTIVITIES------*/
+  /* line 138, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+  .max {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly; }
+    /* line 143, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+    .max .contenedor {
+      width: 500px;
+      height: 650px; }
+      /* line 146, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+      .max .contenedor img {
+        width: 500px;
+        height: 550px; }
+      /* line 150, ../../../Desktop/terceraEntrega/scss/partials/_mediaqueries.scss */
+      .max .contenedor h2 {
+        font-size: 24px;
+        font-family: "Roboto", sans-serif; } }
 
 /*# sourceMappingURL=styles.css.map */
