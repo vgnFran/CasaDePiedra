@@ -160,6 +160,9 @@ h3 {
   flex-direction: column;
   margin-left: 10%; }
 
+/*.navbar{
+    background-color: #C3B091;
+}*/
 /**/
 @media (max-width: 1024px) {
   /* line 49, ../../../Desktop/terceraEntrega/scss/partials/_animations.scss */
