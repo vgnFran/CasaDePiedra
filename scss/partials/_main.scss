@@ -82,10 +82,53 @@ button{
 
 
 /* ----------  HTML UNITS ------- */
+.contUnits{
+    max-width: 100%!important;
+    padding: 0;
+    height: 80vh!important;
+    .bgUnits{
+        height: 80vh;
+        background-image: url("/images/Bgunits.jpg");
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .img-fluid{
+        height: 80vh;
+        object-fit: cover;
+    }
+    h1{
+        position: absolute;
+        top: 10%;
+        color: white;
+        text-shadow: 1px 2px 2px black;
+    }
+    p{
+        position: absolute;
+        top: 35%;
+        font-size:17px;
+        width: 100%;
+        color: white;
+        font-weight: 300;
+        text-shadow: 1px 2px 2px black;
 
-.breadcrumb{
-    margin-left: 30px;
+    }
 }
+.titlesUnits{
+    h2{
+        font-size: 40px;
+        font-weight: $mainWeight;
+        margin-top: 15px;
+    }
+}
+
+.unitsMain{
+    h2{
+        font-size: 40px;
+        font-weight: $mainWeight;
+    }
+}
+
 .card{
     .card-title, .card-header{
         font-weight:$mainWeight;
