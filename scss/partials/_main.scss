@@ -156,9 +156,43 @@ h3{
 }
 
 /*----------HTML ACTIVITIES--------*/
-.container-xxl{
-    max-width: 85%;
+.presentation{
+    max-width: 100%!important;
+    padding: 0;
+    object-fit: cover;
+    margin-bottom: 50px;
+
+    .carousel-inner{
+        height: 80vh;
+    }
+    h1{
+        position:absolute;
+        top: 40%;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-weight: 300!important;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        font-size: 25px;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        
+    }
 }
+
+
+.container-xxl{
+    max-width: 100%;
+    h1{
+        font-weight: $mainWeight;
+        font-size: 42px!important;
+    }
+}
+
 .max{  
     display: flex;
     flex-direction: column;
@@ -182,7 +216,7 @@ h3{
         }
         h2{
             font-family: $mainFont;
-            font-size: 26px;
+            font-size: 24px;
             font-weight: $mainWeight;
             position: absolute;
             bottom:12%;
@@ -190,12 +224,16 @@ h3{
             color: white;
             text-shadow: 1px 1px 2px black
         }
+        .minih2{
+            font-size: 19px;
+        }
          h3{
-            bottom: 20%;
+            bottom: 18%;
             position: absolute;
             left:10px;
             color:white;
             font-family: $mainFont;
+            font-size: 16px!important;
             text-shadow: 1px 1px 2px black
          }
         .modal{
