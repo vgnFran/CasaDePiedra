@@ -18,7 +18,7 @@ button{
     display: flex;
     justify-content: center;
     .btn{
-        width: 80%;
+        width: 30%;
         height: 40px;
         display: flex;
         flex-direction: column;
@@ -156,6 +156,9 @@ h3{
 }
 
 /*----------HTML ACTIVITIES--------*/
+.container-xxl{
+    max-width: 85%;
+}
 .max{  
     display: flex;
     flex-direction: column;
@@ -251,5 +254,4 @@ h3{
          }
     }
 }
-
 
