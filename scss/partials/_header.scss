@@ -22,7 +22,10 @@ nav {
             
 
             &:hover{
-                font-size: 18px;
+                position: relative;
+                bottom: 5%;
+                transition: 0.2s;
+               
                 font-weight: $mainWeight;
             }
         }
