@@ -228,6 +228,7 @@ h3{
         color: white;
         text-shadow: 1px 1px 2px black;
         font-weight: 300!important;
+        font-size: 50px;
     }
     h2{
         width: 100%;
@@ -444,6 +445,17 @@ h3{
         font-family: 'Cormorant Garamond', serif;
 
     }
+    input, option, .form-select, .form-control{
+        font-size: 20px!important;
+        font-weight: $mainWeight;
+    }
+
+
+
+        
+        
+
+    
 }
 
 
