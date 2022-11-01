@@ -55,12 +55,18 @@ button{
     font-size: 18px;
     font-weight: $mainWeight;
     color: rgb(65, 63, 63);
+    text-align: center;
 }
 
 #cardEx{
     height: 400px;
     object-fit: cover;
-    object-position: 50% 50%
+    object-position: 50% 50%;
+
+}
+
+.space{
+    margin-bottom: 10px!important;
 }
 
 #h4{
@@ -172,11 +178,11 @@ button{
 }
 .icons{
     h2{
-        color:gray;
+        color:rgb(70, 70, 70);
         font-size: 25px;
     }
     h3{
-        color: gray;
+        color: rgb(70, 70, 70);
         font-size: 20px!important;
     }
 }
@@ -191,7 +197,7 @@ h2{
    font-weight:300; 
 }
 h3{
-    color: gray;
+    color: rgb(73, 73, 73);
     font-size: 22px!important;
     font-weight:$mainWeight!important;
 }
